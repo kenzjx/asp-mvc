@@ -1,0 +1,58 @@
+@using Microsoft.EntityFrameworkCore
+@using System.Data
+
+@inject redux.Data.AppDbContext dbContext
+@{
+    ViewData["Title"] = "Thong tin Db";
+    var connect = dbContext.Database.GetDbConnection();
+    var dbname = connect.Database;
+    var can_connect = dbContext.Database.CanConnect();
+
+    
+}
+<partial name="_AlertMessage" />
+<h2>Thong tin</h2>
+
+<p>- Database : @dbname</p>
+<p>- Source: @connect.DataSource</p>
+<p>- State: @connect.State</p>
+<hr>
+
+<h2>Migartions</h2>
+@foreach (var migration in dbContext.Database.GetAppliedMigrations())
+{
+    <p>@migration</p>
+}
+@foreach (var migration in dbContext.Database.GetPendingMigrations())
+{
+    <p>@migration (pending)</p>
+}
+
+
+
+@if( !can_connect)
+{
+    <p class="alert alert-danger">Khong co khar nang ket noi den Database</p>
+
+}
+
+@if (dbContext.Database.GetPendingMigrations().Any())
+{
+     <form method="post">
+          <button class="btn btn-success" asp-action="Migrate">Tao Database</button>
+     </form>
+}
+@if(can_connect)
+{
+    <h2>Cac Table</h2>
+     await dbContext.Database.OpenConnectionAsync();
+    var table = dbContext.Database.GetDbConnection().GetSchema("Tables");
+    <ul>
+        @foreach (DataRow row in table.Rows)
+    {
+        <li>@row["TABLE_NAME"]</li>
+    }
+    </ul>
+
+    <a class="btn btn-danger" asp-action="DeleteDb">Xoa Database: @dbname</a>
+}

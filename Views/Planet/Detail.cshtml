@@ -1,0 +1,17 @@
+@model redux.Models.PlanetModel
+<h1>@Model.VnName</h1>
+
+<div class="card w-50">
+    <img  class="card-img-top" src="~/planet/@(Model.VnName).jpg" alt="" >
+    <h3 style="margin: 40px">@Model.Name</h3>
+    <div class="card-body">
+        <div class="card-text">
+                @Model.Content
+        </div>
+        <a class="card-link" asp-action="Index" asp-controller="Planet">Cac hanh tinh</a>
+    </div>
+</div>
+
+<p>
+    @Url.RouteUrl("saturn1")
+</p>

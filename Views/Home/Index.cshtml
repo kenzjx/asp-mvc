@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<partial name="_AlertMessage" />
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+
+<p>
+    @Url.ActionLink()
+</p>
+
+<p>
+    @Url.Action()
+</p>
+
+<p>
+    @Url.Action("Privacy")
+</p>
+
+<p>
+    @Url.Action("Privacy", new {id =1, name ="asdfasdf"})
+</p>
+
+<p>
+    @Url.Action("Jupiter", "Planet")
+</p>
+
+<p>
+    @Url.Action("PlanetInfo", "Planet", new {id =3})
+</p>
+
+<p>
+    @Url.Action("Index", "Product", new { area ="ProductManage", id = 123})
+</p>
+
+<p>
+    @Url.RouteUrl("default", new {action = "HelloView", controller="Home"})
+</p>
