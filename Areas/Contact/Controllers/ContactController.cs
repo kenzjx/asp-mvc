@@ -13,6 +13,7 @@ using ContactModel = redux.Models.Contacts.Contact;
 namespace redux.Areas.Contact.Controllers
 {
     [Area("Contact")]
+    [Authorize(Roles = RoleName.Administrator)]
     public class ContactController : Controller
     {
         private readonly AppDbContext _context;

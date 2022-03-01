@@ -39,7 +39,7 @@
 @if (dbContext.Database.GetPendingMigrations().Any())
 {
      <form method="post">
-          <button class="btn btn-success" asp-action="Migrate">Tao Database</button>
+          <button clayss="btn btn-success" asp-action="Migrate">Tao Database</button>
      </form>
 }
 @if(can_connect)
@@ -55,4 +55,5 @@
     </ul>
 
     <a class="btn btn-danger" asp-action="DeleteDb">Xoa Database: @dbname</a>
+     <a class="btn btn-danger" asp-action="SeedData">See Data</a>
 }

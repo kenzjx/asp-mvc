@@ -274,3 +274,16 @@
 /home/phong/Desktop/redux/obj/Debug/net6.0/redux.MvcApplicationPartsAssemblyInfo.cs
 /home/phong/Desktop/redux/bin/Debug/net6.0/package-lock.json
 /home/phong/Desktop/redux/bin/Debug/net6.0/package.json
+/home/phong/Desktop/redux/bin/Debug/net6.0/MailKit.dll
+/home/phong/Desktop/redux/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.Facebook.dll
+/home/phong/Desktop/redux/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll
+/home/phong/Desktop/redux/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.Twitter.dll
+/home/phong/Desktop/redux/bin/Debug/net6.0/MimeKit.dll
+/home/phong/Desktop/redux/bin/Debug/net6.0/BouncyCastle.Crypto.dll
+/home/phong/Desktop/redux/bin/Debug/net6.0/System.Data.SqlClient.dll
+/home/phong/Desktop/redux/bin/Debug/net6.0/runtimes/win-arm64/native/sni.dll
+/home/phong/Desktop/redux/bin/Debug/net6.0/runtimes/win-x64/native/sni.dll
+/home/phong/Desktop/redux/bin/Debug/net6.0/runtimes/win-x86/native/sni.dll
+/home/phong/Desktop/redux/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/home/phong/Desktop/redux/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/home/phong/Desktop/redux/bin/Debug/net6.0/libman.json
