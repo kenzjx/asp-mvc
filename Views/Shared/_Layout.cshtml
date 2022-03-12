@@ -55,11 +55,17 @@
                                 asp-action="Index">Planet</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link text-dark" 
+                                asp-controller="Product"
+                                asp-action="Index">Product</a>
+                        </li>
+                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="Contact"
                                 asp-controller="Contact"
                                 asp-action="SendContact">Liên Hệ</a>
                         </li>
                     </ul>
+                    @await Html.PartialAsync("_CartPartial")
                     <partial name="_LoginPartial" />
                     <partial name="_MenumanagePartial" />
 

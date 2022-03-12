@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AtsXg/nU0yb/YLuTbUDJq7faUvyySiZzpHmHxt+jcq9oaZu9YiiRvg+XZMeopOVrqrfcbyI/eV8HUuSfFeP1ZQ==",
+  "dgSpecHash": "iUErHykhm2qffDlr9GSKP5KaAd1fK8Rz62kI2FJdxzz6YLg0esh5Oa7FRVVI1CkVu3aibC48VLCU4hSMljjtfQ==",
   "success": true,
   "projectFilePath": "/home/phong/Desktop/redux/redux.csproj",
   "expectedPackageFiles": [
@@ -34,6 +34,7 @@
     "/home/phong/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/6.0.2/microsoft.aspnetcore.identity.entityframeworkcore.6.0.2.nupkg.sha512",
     "/home/phong/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.2/microsoft.aspnetcore.identity.ui.6.0.2.nupkg.sha512",
     "/home/phong/.nuget/packages/microsoft.aspnetcore.razor.language/6.0.0/microsoft.aspnetcore.razor.language.6.0.0.nupkg.sha512",
+    "/home/phong/.nuget/packages/microsoft.aspnetcore.session/2.2.0/microsoft.aspnetcore.session.2.2.0.nupkg.sha512",
     "/home/phong/.nuget/packages/microsoft.aspnetcore.webutilities/2.2.0/microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
     "/home/phong/.nuget/packages/microsoft.bcl.asyncinterfaces/5.0.0/microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "/home/phong/.nuget/packages/microsoft.build/17.0.0/microsoft.build.17.0.0.nupkg.sha512",
@@ -65,6 +66,7 @@
     "/home/phong/.nuget/packages/microsoft.entityframeworkcore.design/6.0.2/microsoft.entityframeworkcore.design.6.0.2.nupkg.sha512",
     "/home/phong/.nuget/packages/microsoft.entityframeworkcore.relational/6.0.2/microsoft.entityframeworkcore.relational.6.0.2.nupkg.sha512",
     "/home/phong/.nuget/packages/microsoft.entityframeworkcore.sqlserver/6.0.2/microsoft.entityframeworkcore.sqlserver.6.0.2.nupkg.sha512",
+    "/home/phong/.nuget/packages/microsoft.entityframeworkcore.tools/6.0.2/microsoft.entityframeworkcore.tools.6.0.2.nupkg.sha512",
     "/home/phong/.nuget/packages/microsoft.extensions.caching.abstractions/6.0.0/microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "/home/phong/.nuget/packages/microsoft.extensions.caching.memory/6.0.1/microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
     "/home/phong/.nuget/packages/microsoft.extensions.configuration/6.0.0/microsoft.extensions.configuration.6.0.0.nupkg.sha512",

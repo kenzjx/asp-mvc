@@ -29,7 +29,7 @@ builder.Services.Configure<RazorViewEngineOptions>(options=>{
     options.ViewLocationFormats.Add("/MyView/{1}/{0}"+RazorViewEngine.ViewExtension);
 });
 
-builder.Services.AddSingleton<ProductService, ProductService>();
+// builder.Services.AddSingleton<ProductService, ProductService>();
 builder.Services.AddSingleton<PlanetService, PlanetService>();
 builder.Services.AddIdentity<AppUser, IdentityRole> ()
                 .AddEntityFrameworkStores<AppDbContext> ()
@@ -136,6 +136,11 @@ builder.Services.AddSingleton<IdentityErrorDescriber, AppIdentityErrorDescriber>
 
 
             });
+builder.Services.AddDistributedMemoryCache();           // Đăng ký dịch vụ lưu cache trong bộ nhớ (Session sẽ sử dụng nó)
+builder.Services.AddSession(cfg => {                    // Đăng ký dịch vụ Session
+    cfg.Cookie.Name = "dophong";             // Đặt tên Session - tên này sử dụng ở Browser (Cookie)
+    cfg.IdleTimeout = new TimeSpan(0,30, 0);    // Thời gian tồn tại của Session
+});
             // builder.Services.AddTransient<IAuthorizationHandler, MinimumAgeHandler>();
             // builder.Services.AddTransient<IAuthorizationHandler, CanUpdatePostAgeHandler>();
 
@@ -153,6 +158,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+app.UseSession();
 app.AddStatusCodePage();
 app.UseRouting();
 app.UseAuthentication();

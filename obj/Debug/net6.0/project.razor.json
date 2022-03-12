@@ -16303,6 +16303,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/phong/Desktop/redux/Views/Product/Cart.cshtml",
+      "TargetPath": "Views\\Product\\Cart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/phong/Desktop/redux/Areas/Contact/Views/Contact/Index.cshtml",
       "TargetPath": "Areas\\Contact\\Views\\Contact\\Index.cshtml",
       "FileKind": "mvc"
@@ -16315,6 +16320,11 @@
     {
       "FilePath": "/home/phong/Desktop/redux/Pages/Razor.cshtml",
       "TargetPath": "Pages\\Razor.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/phong/Desktop/redux/Views/Shared/_Summernote.cshtml",
+      "TargetPath": "Views\\Shared\\_Summernote.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16363,11 +16373,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/phong/Desktop/redux/Areas/ProductManage/Views/_ViewImports.cshtml",
-      "TargetPath": "Areas\\ProductManage\\Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/home/phong/Desktop/redux/Areas/Identity/Views/Manage/DisplayRecoveryCodes.cshtml",
       "TargetPath": "Areas\\Identity\\Views\\Manage\\DisplayRecoveryCodes.cshtml",
       "FileKind": "mvc"
@@ -16380,11 +16385,6 @@
     {
       "FilePath": "/home/phong/Desktop/redux/Views/Shared/_MenumanagePartial.cshtml",
       "TargetPath": "Views\\Shared\\_MenumanagePartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/phong/Desktop/redux/MyView/First/ViewProduct.cshtml",
-      "TargetPath": "MyView\\First\\ViewProduct.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16405,11 +16405,6 @@
     {
       "FilePath": "/home/phong/Desktop/redux/Areas/Identity/Views/Account/AccessDenied.cshtml",
       "TargetPath": "Areas\\Identity\\Views\\Account\\AccessDenied.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/phong/Desktop/redux/MyView/First/ViewProduct2.cshtml",
-      "TargetPath": "MyView\\First\\ViewProduct2.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16498,11 +16493,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/phong/Desktop/redux/Areas/ProductManage/Views/_ViewStart.cshtml",
-      "TargetPath": "Areas\\ProductManage\\Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/home/phong/Desktop/redux/Views/Planet/Index.cshtml",
       "TargetPath": "Views\\Planet\\Index.cshtml",
       "FileKind": "mvc"
@@ -16525,6 +16515,11 @@
     {
       "FilePath": "/home/phong/Desktop/redux/Areas/Identity/Views/User/AddClaim.cshtml",
       "TargetPath": "Areas\\Identity\\Views\\User\\AddClaim.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/phong/Desktop/redux/Views/Product/Index.cshtml",
+      "TargetPath": "Views\\Product\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16588,18 +16583,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/phong/Desktop/redux/MyView/First/xinchao3.cshtml",
-      "TargetPath": "MyView\\First\\xinchao3.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/home/phong/Desktop/redux/Areas/Identity/Views/Account/Error.cshtml",
       "TargetPath": "Areas\\Identity\\Views\\Account\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/phong/Desktop/redux/Areas/ProductManage/Views/Product/Index.cshtml",
-      "TargetPath": "Areas\\ProductManage\\Views\\Product\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16645,6 +16630,11 @@
     {
       "FilePath": "/home/phong/Desktop/redux/Views/Shared/_StatusMessage.cshtml",
       "TargetPath": "Views\\Shared\\_StatusMessage.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/phong/Desktop/redux/Views/Shared/_CartPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_CartPartial.cshtml",
       "FileKind": "mvc"
     }
   ],
